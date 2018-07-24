@@ -1,0 +1,25 @@
+{
+  "name": "recipe-book",
+  "version": "1.0.0",
+  "description": "A Recipe book",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node  node_modules/sass/sass.js src/styles/main.scss src/styles/main.css",
+    "listen": "node node_modules/http-server/bin/http-server -o",
+    "start": "npm run sass && npm run listen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DBereznak/recipe-book.git"
+  },
+  "author": "Donny Bereznak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DBereznak/recipe-book/issues"
+  },
+  "homepage": "https://github.com/DBereznak/recipe-book#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "sass": "^1.10.0"
+  }
+}
